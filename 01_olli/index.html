@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>목록태그</title>
+    <style>
+        ul li{
+            color: red;
+            /* list-style: square;
+            list-style: disc; */
+        }
+        ul li ol li{
+            list-style: upper-alpha;
+        }
+        ul li ul li{
+            list-style: square;
+        }
+        ol li{
+            color: blue;
+            list-style: lower-alpha;
+            list-style: upper-roman;
+            list-style: lower-roman;
+            list-style: decimal;
+        }
+    </style>
 </head>
 <body>
     <h1>순서 없는 목록(타는 것)</h1>
     <hr>
     <ul>
-        <li>비행기</li>
-        <li>버스</li>
+        <li>
+            비행기
+            <ol>
+                <li>국내용</li>
+                <li>국제용</li>
+            </ol>
+
+        </li>
+        <li>버스
+            <ul>
+                <li>시내버스</li>
+                <li>시외버스</li>
+            </ul>
+        </li>
         <li>기차</li>
     </ul>
     <hr>
