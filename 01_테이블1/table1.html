@@ -12,10 +12,19 @@
             border: 1px solid #000;
             width: 600px;
             margin: auto;
+            border-spacing: 0px;
+            border-collapse: collapse;
+            
         }
         td{
             text-align: center;
             border: 1px solid #000;
+        }
+        .row1{
+            background-color: #ffcc01;
+        }
+        .row2{
+            background-color: #cdff00;
         }
     </style>
 </head>
@@ -24,15 +33,20 @@
     <table>
         
         <caption>*주간시간표 테이블</caption>
-     <tr>
+     <tr class="row1">
          <td>1교시</td>
          <td>2교시</td>
          <td>3교시</td>
      </tr>
-     <tr>
+     <tr class="row2">
         <td>포토샵</td>
         <td>HTML</td>
         <td>JQERY</td>
+     </tr>
+     <tr class="row2">
+        <td>일러스트</td>
+        <td>CSS</td>
+        <td>포트폴리오</td>
      </tr>
     </table>
 </body>
