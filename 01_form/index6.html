@@ -3,59 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>응용3</title>
     <style>
-        fieldset{
-            width: 528px;
-        }
-        li{
-            list-style: none;
-        }
-        .p1{
-            margin-bottom: 13px;
-        }
-        
+        fieldset{width: 525px;}
+        .p1{height: 14px;}
     </style>
 </head>
 <body>
     <form action="">
         <fieldset>
             <legend>신청과목</legend>
-            <ul>
-                <li>
-                    <p>이 달에 신청할 과목을 선택하세요 (1과목만 가능)</p>
-                </li>
-                
-
-                <li>
-                    <label for="1">회화</label>
-                    <input type="radio" name="" id="1" checked>
-                    <label for="2">문법</label>
-                    <input type="radio" name="" id="2">
-                    <label for="3">작문</label>
-                    <input type="radio" name="" id="3">
-                </li>
-            </ul>
+                    <p>
+                    <label for="">이 달에 신청할 과목을 선택하세요 (1과목만 가능)</label>
+                    </p>
+                    <p class="p1">
+                    <input type="radio" name="or" id="this" checked><label for="this">회화</label>
+                    <input type="radio" name="or" id="this1"><label for="this1">문법</label>
+                    <input type="radio" name="or" id="this2"><label for="this2">작문</label>
+                    </p>
         </fieldset>
         <fieldset>
-            <legend>매일링</legend>
-            <ul>
-                <li>
-                    <p>메일로 받고 싶은 뉴스 주제를 선택해 주세요 (복수선택가능)</p>
-                </li>
-                
-                <li>
-                    <label for="4">해외단신</label>
-                    <input type="checkbox" name="" id="5" checked>
-                    <label for="6">5분 회화</label>
-                    <input type="checkbox" name="" id="6">
-                    <label for="7">모닝팝스</label>
-                    <input type="checkbox" name="" id="7">
-                </li>
-                
-            </ul>
+            <legend>메일링</legend>
+                    <p>
+                        <label>메일로 받고 싶은 뉴스 주제를 선택해 주세요(복수선택가능)</label>
+                    </p>   
+                    <p class="p1">
+                    <input type="checkbox" name="" id="mail" checked><label for="mail">해외단신</label>
+                    <input type="checkbox" name="" id="mail1" checked><label for="mail1">5분 회화</label>
+                    <input type="checkbox" name="" id="mail2" checked><label for="mail2">모닝팝스</label>
+                     </p>
         </fieldset>
-
     </form>
 </body>
 </html>
