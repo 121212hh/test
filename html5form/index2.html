@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            border-color: #ddab4a;
+            width: 780px;
+        }
+        legend{
+            color: #ddab4a;
+        }
+        li{
+            list-style: none;
+            background-color: #eeeeee;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .inputa{
+            background-color: #000;
+            color: #fff;
+        } 
+        .input1{
+            width: 177;
+            height: 22px;
+        }
+        .input2{
+            width: 177;
+            height: 22px;
+        }
+        .input3{
+            width: 177;
+            height: 22px;
+        }
+        .input4{
+            width: 177;
+            height: 22px;
+            margin-right: 6px;
+        }
+        .input5{
+            width: 177;
+            height: 22px;
+        }
+        .input6{
+            width: 177;
+            height: 22px;
+        }
+        .input7{
+            width: 177;
+            height: 22px;
+        }
+        .input8{
+            width: 177;
+            height: 22px;
+        }
+        .input9{
+            width: 177;
+            height: 22px;
+        }
+        option{
+            height: 22px;
+        }
+        select{
+            height: 28px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>상품 주문서</h1>
+    <form action="">
+        <fieldset>
+            <legend>개인 정보</legend>
+            <ul>
+                <li>
+                    <label for="name">이름</label>
+                    <input type="text" name="" id="name" placeholder="여백없이 입력" required class="input1">
+                </li>
+                <li>
+                    <label for="password">비밀번호</label>
+                    <input type="password" name="" id="password" class="input2" placeholder="비밀번호를 입력하시요" required class="input9">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>배송지 정보</legend>
+            <ul>
+                <li>
+                    <label for="1">주소</label>
+                    <input type="text" name="" id="1" class="input3">
+                </li>
+                <li>
+                    <label for="2">전화번호</label>
+                    <select name="" id="2">
+                        <option value="">010</option>
+                        <option value="">011</option>
+                    </select>
+                    <input type="tel" name="" id="2" class="input4" maxlength="4"><input type="tel" name="" id="2" class="input5" maxlength="4">
+                </li>
+                <li>
+                    <label for="3">메모</label>
+                    <textarea name="" id="3" cols="30" rows="2"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>주문 정보</legend>
+            <ul>
+                <li>
+                    <label for="4">과태말라 안티구아 (100g)</label>
+                    <input type="text" name="" id="4" class="input6">개
+                </li>
+                <li>
+                    <label for="5">인도네시아 만델링 (100g)</label>
+                    <input type="text" name="" id="5" class="input7">개
+                </li>
+                <li>
+                    <label for="6">탐라는도다 (블렝딩) (100g)</label>
+                    <input type="text" name="" id="6" class="input8">개
+                </li>
+                <li>
+                    <label for="7">01</label> <input type="checkbox" name="1" id="7">
+                    <label for="8">02</label> <input type="checkbox" name="1" id="8">
+                    <label for="9">03</label> <input type="checkbox" name="1" id="9">
+                    <label for="10">04</label> <input type="checkbox" name="1" id="10">
+                </li>
+                <li>
+                    <label for="11">r01</label> <input type="radio" name="2" id="11">
+                    <label for="12">r02</label> <input type="radio" name="2" id="12">
+                    <label for="13">r03</label> <input type="radio" name="2" id="13">
+                    <label for="14">r04</label> <input type="radio" name="2" id="14">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>버튼모음</legend>
+            <ul>
+                <li>
+                    <input type="submit" value="주문하기" class="inputa">
+                    <input type="reset" value="취소">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
